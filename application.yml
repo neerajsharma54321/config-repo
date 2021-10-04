@@ -1,3 +1,10 @@
+server.port: 8080
 
+spring:
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:8888
 
 greeting: "Hello cloud greeting message hello world"

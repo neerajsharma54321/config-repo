@@ -1,0 +1,25 @@
+server.port: 8080
+
+greeting: "Hello cloud greeting message hello world  dfdsfdsfds   dgfdsgdf"
+
+spring:
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:8888
+  datasource:
+      driver: org.postgresql.Driver
+      password: root
+      platform: postgres
+      url: jdbc:postgresql://localhost:5432/postgres
+      username: postgres
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    generate-ddl: true
+    hibernate.ddl-auto: update
+    properties.hibernate.jdbc.lob.non_contextual_creation: true
+  jackson.serialization.FAIL_ON_EMPTY_BEANS: false
+
+active-env: devoutside-environment

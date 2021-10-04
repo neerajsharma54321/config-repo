@@ -1,6 +1,6 @@
 server.port: 8080
 
-greeting: "Hello cloud greeting message hello world"
+greeting: "Hello cloud greeting message hello world  dfdsfdsfds"
 
 spring:
   profiles:

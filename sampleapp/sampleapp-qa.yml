@@ -18,3 +18,4 @@ spring.jackson.serialization.FAIL_ON_EMPTY_BEANS: false
 
 #active env check
 active-env: qaoutside-environment
+greeting: "greeting from sampleapp-qa.yml file."

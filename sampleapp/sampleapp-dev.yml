@@ -17,4 +17,4 @@ spring:
 
 active-env: devoutside-environment
 
-greeting: "Hello cloud greeting message hello world in java sample-app.java."
+greeting: "sample app inside folder sampleapp welcome"

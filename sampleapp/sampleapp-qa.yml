@@ -3,7 +3,7 @@ logging.level.org.springframework: debug
 spring:
   datasource:
       driver: org.postgresql.Driver
-      password: root
+      password: {cipher}fdb35fccfda9a0da02aef5314bc9b13ec5ed7fe49774b943135bbb227a55f1d4
       platform: postgres
       url: jdbc:postgresql://localhost:5432/postgresqa
       username: postgres

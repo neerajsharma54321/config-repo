@@ -7,5 +7,5 @@ spring:
     config:
       uri: http://localhost:8888
 
-greeting: "default sampleapp.yml file inside sampleapp folder."
+#greeting: "default sampleapp.yml file inside sampleapp folder."
 mydbpassword: "12345678"

@@ -18,6 +18,6 @@ spring.jackson.serialization.FAIL_ON_EMPTY_BEANS: false
 
 #active env check
 active-env: qaoutside-environment
-#greeting: "greeting from sampleapp-qa test message."
+greeting: "greeting from sampleapp-qa test message."
 
 # kubernates secret key

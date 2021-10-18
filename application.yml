@@ -2,10 +2,10 @@ server.port: 8080
 
 spring:
   profiles:
-    active: dev
+    active: qa
   cloud:
     config:
       uri: http://localhost:8888
 
-greeting: "Hello cloud greeting message from default path."
+greeting: "Hello cloud greeting message hello world in java. test"
 mydbpassword: "myencpass"

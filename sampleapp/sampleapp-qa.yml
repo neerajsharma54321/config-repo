@@ -5,7 +5,7 @@ spring:
       driver: org.postgresql.Driver
       password: '{cipher}fdb35fccfda9a0da02aef5314bc9b13ec5ed7fe49774b943135bbb227a55f1d4'
       platform: postgres
-      url: jdbc:postgresql://localhost:5432/postgres
+      url: jdbc:postgresql://localhost:5432/postgresprod
       username: postgres
   jpa:
     database: POSTGRESQL

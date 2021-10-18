@@ -7,5 +7,5 @@ spring:
     config:
       uri: http://localhost:8888
 
-greeting: "Hello cloud greeting message hello world in java."
+greeting: "Hello cloud greeting message from default path."
 mydbpassword: "myencpass"

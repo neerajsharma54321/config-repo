@@ -1,4 +1,4 @@
-server.port: 8080
+#server.port: 8080
 
 spring:
   profiles:
@@ -7,5 +7,5 @@ spring:
     config:
       uri: http://localhost:8888
 
-greeting: "Hello cloud greeting message hello world in java. test home"
+greeting: "Hello cloud greeting message hello world in java. test home hello"
 mydbpassword: "myencpass"

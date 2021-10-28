@@ -17,4 +17,4 @@ spring:
 
 active-env: devoutside-environment
 
-greeting: "sample app inside folder sampleapp welcome"
+greeting: "sample app inside folder sampleapp welcome - NEW"

@@ -3,9 +3,10 @@
 spring:
   profiles:
     active: qa
-#   cloud:
-#     config:
-#       uri: http://localhost:8888
+  cloud:
+    config:
+      uri: http://10.97.234.141:32412
+      #uri: http://localhost:8888
 
 greeting: "Hello cloud greeting message hello world in java. test home hello"
 mydbpassword: "myencpass"
